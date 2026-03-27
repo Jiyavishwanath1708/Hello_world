@@ -36,19 +36,39 @@ int main() {
   * static variables
   * signed & unsigned
   * strings
+---
+## 💻 Output
+```
+Integer (age) = 20
+Float (percentage) = 85.50
+Double (pi) = 3.1415900000
+Character (grade) = A
+Boolean (isPassed) = 1
+
+Size of int = 4 bytes
+Size of float = 4 bytes
+Size of double = 8 bytes
+Size of char = 1 bytes
+
+Constant MAX = 100
+
+Multiple Variables:
+ a=10, b=20, c=30
+
+age before update: 20
+age after Updated : 25
+```
+## 📚 Topics Covered
+
+* Data Types
+* Variables
+* Input/Output
+* Constants
+* Type Casting
+* Memory Size (sizeof)
+* Basic Syntax
 
 ---
-
-## 🎯 Purpose
-
-This repository is created to:
-
-* Practice C programming
-* Understand basic concepts easily
-* Help beginners learn step-by-step
-
----
-
 ## 🛠️ How to Run
 
 1. Install any C compiler (like GCC)
@@ -64,19 +84,6 @@ This repository is created to:
    ```
 
 ---
-
-## 📚 Topics Covered
-
-* Data Types
-* Variables
-* Input/Output
-* Constants
-* Type Casting
-* Memory Size (sizeof)
-* Basic Syntax
-
----
-
 ## 👩‍💻 Author
 
 **Jiya Vishwanath**
