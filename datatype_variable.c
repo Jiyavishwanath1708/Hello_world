@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdbool.h>
+
 //Datatype:type of data that variable store.
 //variable: place to store data.
-
+globle=100; //globle variable
 // -------- FUNCTION ----------
 int add(int a, int b) {
     return a + b;
@@ -151,6 +152,8 @@ void sizeofdatatype(){
 
 int main() {
     int choice,option;
+    printf("globle variable\n");
+    scanf("%d",&globle);
 
     do {
         printf("\n===== C PROGRAM MENU =====\n");
