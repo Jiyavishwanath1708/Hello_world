@@ -6,12 +6,12 @@ int main() {
 
     do {
         printf("\n===== MENU =====\n");
-        printf("1. if statement\n");
-        printf("2. if-else statement\n");
-        printf("3. Nested if\n");
-        printf("4. else-if ladder\n");
-        printf("5. switch statement\n");
-        printf("6. Ternary operator\n");
+        printf("1. if statement( TO KNOW NUMBER IS POSITIVE)\n");
+        printf("2. if-else statement(EVEN ODD)\n");
+        printf("3. Nested if(ZERO/NEGATIVE/POSITIVE)\n");
+        printf("4. else-if ladder(GRADE)\n");
+        printf("5. switch statement(DAY)\n");
+        printf("6. Ternary operator(TO KNOW MAX VALUE)\n");
         printf("0. Exit\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
@@ -47,10 +47,10 @@ int main() {
                 scanf("%d", &num);
 
                 if(num > 0) {
-                    if(num % 2 == 0)
-                        printf("Positive Even\n");
+                    if( num == 0)
+                        printf("zero\n");
                     else
-                        printf("Positive Odd\n");
+                        printf("positive\n");
                 } else {
                     printf("Number is not positive\n");
                 }
