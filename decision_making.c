@@ -12,6 +12,7 @@ int main() {
         printf("4. else-if ladder(GRADE)\n");
         printf("5. switch statement(DAY)\n");
         printf("6. Ternary operator(TO KNOW MAX VALUE)\n");
+        printf("7.jump statement\n");
         printf("0. Exit\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
@@ -99,6 +100,93 @@ int main() {
                 int max = (a > b) ? a : b;
                 printf("Maximum is %d\n", max);
                 break;
+            }
+            case 7:
+            char ch;
+        
+            printf("A.break statement\n");
+            printf("B.continue statement\n");
+            printf("C.Goto statement");
+            printf("D. return statement\n");
+            printf("enter choice\n");
+            scanf("%s",&ch);
+            switch(ch){
+                int i;
+                case 'A':
+            
+                    for (i = 1; i <= 10; i++)
+                    {
+                       
+                    if (i == 3)
+                    {
+                        printf("breaked value:%d",i);
+                    break;
+                    }
+                    //printf("%d\n", i);
+                    }
+                    printf("\nLoop exited.\n");
+                break;
+                case 'B':
+                
+                    for (i = 0; i < 5; i++)
+                    {
+                    if (i == 2)
+                    {
+
+                    printf("Skipping iteration %d\n", i);
+                    continue;
+                    }
+                    printf("Executing iteration %d\n", i);
+                    }
+
+                break;
+                case 'C':
+                int num;
+                printf("enter number\n");
+                scanf("%d",&num);
+
+                if (num % 2 == 0)
+                    // jump to even
+                    goto even;
+                    else
+                    // jump to odd
+                    goto odd;
+
+                    even:
+                    printf("%d is even\n", num);
+                    break;
+                    // return if even
+                    odd:
+                    printf("%d is odd\n", num);
+                    break;
+                break;
+                case 'D':
+                int choice;
+
+                    printf("Enter a number (1-3):\n ");
+                    scanf("%d", &choice);
+
+                    switch(choice) {
+                        case 1:
+                            printf("You selected ONE\n");
+                            break;
+
+                        case 2:
+                            printf("You selected TWO\n");
+                            break;
+
+                        case 3:
+                            printf("You selected THREE\n");
+                            break;
+
+                        default:
+                            printf("Invalid choice");
+    }
+
+                break;
+                default:
+                printf("enter valid choice\n");
+
             }
 
             case 0:
