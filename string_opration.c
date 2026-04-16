@@ -59,4 +59,5 @@ char str1[20],str2[20],str3[20];
 
 
     }while(choice != 0);
+    
 }
